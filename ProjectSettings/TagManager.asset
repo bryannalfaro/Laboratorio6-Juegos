@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PowerUp
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -43,4 +45,13 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1518985501
+    locked: 0
+  - name: Foreground
+    uniqueID: 3421011875
+    locked: 0
+  - name: Player
+    uniqueID: 830812293
+    locked: 0
+  - name: Decorations
+    uniqueID: 938406169
     locked: 0
