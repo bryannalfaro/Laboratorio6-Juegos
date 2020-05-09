@@ -4,6 +4,12 @@ using UnityEngine;
  using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
+/*
+ * Bryann Alfaro
+ * Clase que controla el movimiento del jugaodr y sus colisiones
+ * Referencia: Clase en linea
+ */
 public class Movement : MonoBehaviour
 {
 
@@ -50,6 +56,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    //Al comer el power up
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PowerUp"))
@@ -65,6 +72,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    //Al chocar con el enemigo
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
@@ -84,6 +92,7 @@ public class Movement : MonoBehaviour
         }
     }
 
+    //realizar salto
     void Jump()
     {
         if (rgb2d)

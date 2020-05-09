@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Bryann Alfaro
+ * Clase que reinicia la escena o la quita
+ * Referencia: Laboratorios pasados
+ */
 public class Reset : MonoBehaviour
 {
     // Start is called before the first frame update
